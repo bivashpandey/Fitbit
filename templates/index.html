@@ -1,0 +1,50 @@
+<!-- @autor: Bivash Pandey 
+    Main html page for user input to retrieve data from fitbit api -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitbit Data</title>
+    <!-- Link to style.css file -->
+    <link rel="stylesheet" type="text/css" href="/static/styles.css">
+</head>
+<body>
+    <h1>Fitbit Data</h1>
+    <div>
+        <form method="POST">
+            <!-- Data of One or All Participants label and dropdown -->
+            <label for="oneOrAll">Data of One or All Participants?</label><br>
+            <select id = "oneOrAll" name = "oneOrAll" required>
+                <option value="one">Single participant</option>
+                <option value="all">All participants</option>
+            </select><br>
+
+            <!-- Participant ID label and input field -->
+            <label for = "participant">Participant ID <b> [Not Required if you select All Participants above] </b></label><br>
+            <input type="text" id="participant" name="participant" placeholder="Enter Participant Id..."><br>
+
+            <!-- Which Data label and dropdown -->
+            <label for="data">Which Data?</label><br>
+            <select id = "data" name = "data" required>
+                <option value="steps">Steps</option>
+                <option value="heartRate">Heart Rate</option>
+                <option value="sleep">Sleep</option>
+            </select><br>
+
+            <!-- Start Date label and input field -->
+            <label for = "startdate">Start Date</label><br>
+            <input type="text" id="startdate" name="startdate" placeholder="yyyy-MM-dd" required><br>
+
+            <!-- End Date label and input field -->
+            <label for = "enddate">End Date</label><br>
+            <input type="text" id="enddate" name="enddate" placeholder="yyyy-MM-dd" required><br>
+            
+            <!-- Submit button -->
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <br>
+</body>
+</html>

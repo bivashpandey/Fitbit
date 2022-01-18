@@ -1,0 +1,94 @@
+/*
+ * @author: Bivash Pandey 
+ * This page is for the styling of two webpages (index.html, success.html)
+ *
+ */
+
+/* Background color of the page */
+body {
+    background-color: #FFCC80;
+}
+
+/* Styling for the text 'Fitbit Data' */
+h1{
+    text-align: center;
+    font-size: 42px;
+    margin-top: 40px;
+}
+
+/* Styling of forms */
+form{
+    margin-top: 10px;
+}
+div{
+    background-color: whitesmoke;
+    width: 500px;
+    border-radius: 10px;
+    margin:  auto;
+}
+
+/* Styling of labels */
+label{
+    margin-left: 20px;
+    font-size: 17px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+/* Styling for the input field and dropdowns */
+input[type=text], select {
+    margin: auto;
+    display: block;
+    width: 80%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Styling for the Submit button */
+input[type=submit] {
+    display: inline-block;
+    width: 90%;
+    background-color: #8473c2;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    font-size: 18px;
+}
+
+/*
+ * These are the styling of success.html page
+*/
+
+/* Styling for the text 'Data received successfully' */
+h2{
+    text-align: center;
+    font-size: 36px;
+    margin-top: 200px;
+}
+
+/* Styling for the text 'Note: Please do not refresh this page' */
+h3{
+    color: crimson;
+}
+
+/* Styling for the 'Get Another Data' button */
+button{
+    margin: auto;
+    display: block;
+    background-color: #7CB342;
+    font-size: 24px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 300px;
+    margin-top: 50px;
+}
+
