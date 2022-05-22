@@ -1,4 +1,5 @@
 # Fitbit
+Fetch data from fitbit and save into excel/csv files.
 
 <h3>Setup on Mac </h3>
 
