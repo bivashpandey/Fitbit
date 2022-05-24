@@ -1,7 +1,7 @@
 # Fitbit
 This program fetches the data from fitbit and save into excel/csv files. The program uses conversiontools api to convert one category of json data into excel file. Please update the CONVERSION_TOKEN1 and CONVERSION_TOKEN2 with your own API Token in the app.py file. <br/>
 To receive your own API Token, sign up for conversiontools https://conversiontools.io/. <br/>
-After downloading the code, create a virtual environment inside the Fitbit-main folder. 
+After downloading the code, create a virtual environment inside the Fitbit-main folder and install the required packages. 
 
 <h3>Setup</h3>
 
